@@ -1,0 +1,62 @@
+.mainLayout {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:
+    "UserProfileBox   WelcomeMessage  WelcomeMessage      DayWeatherCard  AddActivityGoalButton"
+    "UserProfileBox   DataCards       DataCards   WorkoutGraph    WorkoutGraph"
+    "SideNav          DataCards       DataCards   WorkoutGraph    WorkoutGraph"
+    "SideNav          GoalCard        GoalCard    WorkoutGraph    WorkoutGraph"
+    "SideNav          GoalCard        GoalCard    WorkoutGraph    WorkoutGraph"
+    "GoForItMessage   GoForItMessage           GoForItMessage       GoForItMessage           GoForItMessage";
+  gap: 1rem;
+  height: 100vh;
+  width: 100vw;
+  /* margin: 3rem; */
+
+  &__userProfileBox {
+    grid-area: UserProfileBox;
+    background-color: #005f73;
+  }
+
+  &__sideNav {
+    grid-area: SideNav;
+    background-color: #0a9396;
+  }
+
+  &__welcomeMessage {
+    grid-area: WelcomeMessage;
+    background-color: #94d2bd;
+  }
+
+  &__goalCard {
+    grid-area: GoalCard;
+    background-color: #ee9b00;
+  }
+
+  &__dataCards {
+    grid-area: DataCards;
+    background-color: #ca6702;
+  }
+
+  &__workoutGraph {
+    grid-area: WorkoutGraph;
+    background-color: #aba09b;
+  }
+
+  &__goForItMessage {
+    grid-area: GoForItMessage;
+    background-color: #ae2012;
+  }
+
+  &__dayWeatherCard {
+    grid-area: DayWeatherCard;
+    background-color: #9b2226;
+  }
+
+  &__addActivityGoalButton {
+    grid-area: AddActivityGoalButton;
+    background-color: #e9d8a6;
+    color: #001219;
+  }
+}
