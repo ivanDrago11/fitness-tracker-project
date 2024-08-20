@@ -7,18 +7,18 @@ import SideNav from "../components/SideNav/SideNav";
 import UserProfileBox from "../components/UserProfileBox/UserProfileBox";
 import styles from "./MainLayout.module.scss";
 import GoForItMessage from "../components/GoForItMessage/GoForItMessage";
-import DayWeatherCard from "../components/DayWatherCard/DayWeatherCard";
+import DayWeatherCard from "../components/DayWeatherCard/DayWeatherCard";
 import AddActivityGoalButton from "../components/AddActivityGoalButton/AddActivityGoalButton";
 
 const MainLayout: React.FC = () => {
   return (
     <div className={styles["mainLayout"]}>
+      <UserProfileBox className={styles["mainLayout__userProfileBox"]} />
       <SideNav className={styles["mainLayout__sideNav"]} />
       <WelcomeMessage className={styles["mainLayout__welcomeMessage"]} />
       <GoalCard className={styles["mainLayout__goalCard"]} />
       <DataCards className={styles["mainLayout__dataCards"]} />
       <WorkoutGraph className={styles["mainLayout__workoutGraph"]} />
-      <UserProfileBox className={styles["mainLayout__userProfileBox"]} />
       <GoForItMessage className={styles["mainLayout__goForItMessage"]} />
       <DayWeatherCard className={styles["mainLayout__dayWeatherCard"]} />
       <AddActivityGoalButton

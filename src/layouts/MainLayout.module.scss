@@ -1,3 +1,5 @@
+@import "../styles/variables.scss";
+
 .mainLayout {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -17,46 +19,54 @@
   &__userProfileBox {
     grid-area: UserProfileBox;
     background-color: #005f73;
+    @include centered-flex(column);
   }
 
   &__sideNav {
     grid-area: SideNav;
     background-color: #0a9396;
+    @include centered-flex(column);
   }
 
   &__welcomeMessage {
     grid-area: WelcomeMessage;
     background-color: #94d2bd;
+    @include centered-flex(column);
   }
 
   &__goalCard {
     grid-area: GoalCard;
     background-color: #ee9b00;
+    @include centered-flex(column);
   }
 
   &__dataCards {
     grid-area: DataCards;
     background-color: #ca6702;
+    @include centered-flex(column);
   }
 
   &__workoutGraph {
     grid-area: WorkoutGraph;
     background-color: #aba09b;
+    @include centered-flex(column);
   }
 
   &__goForItMessage {
     grid-area: GoForItMessage;
     background-color: #ae2012;
+    @include centered-flex(column);
   }
 
   &__dayWeatherCard {
     grid-area: DayWeatherCard;
     background-color: #9b2226;
+    @include centered-flex(column);
   }
 
   &__addActivityGoalButton {
     grid-area: AddActivityGoalButton;
-    background-color: #e9d8a6;
     color: #001219;
+    @include centered-flex(column);
   }
 }

@@ -1,0 +1,30 @@
+@import '../../styles/variables.scss';
+
+.container {
+    @include centered-flex(row);
+    width: 85%;
+    height: 70px;
+    border-radius: $border-radius;
+    border: none;
+    background-color: $addActivityGoalButton-color;
+    color: $addActivityGoalButton-text-color;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    position: relative;
+
+    &:hover {
+        background-color: $addActivityGoalButton-color-hover;
+    }
+
+    .icon {
+        margin-top: -2px;
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+    .text {
+        font-size: 1.2rem;
+    }
+
+
+
+}

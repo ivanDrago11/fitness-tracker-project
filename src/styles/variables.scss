@@ -1,0 +1,18 @@
+// Variables
+
+//Colors
+$primary-color: #000000;
+$secondary-color: #ffffff;
+$addActivityGoalButton-color: #52b788;
+$addActivityGoalButton-text-color: #ffffff;
+$addActivityGoalButton-color-hover: #40916c;
+//Border Radius
+$border-radius: 10px;
+
+//Mixins
+@mixin centered-flex($direction: column) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
