@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Dropdown.module.scss';
 
 type DropdownProps = {
-    isDropdownVisible: boolean;
+    isDropdownVisible?: boolean;
 };
 
 const Dropdown: React.FC<DropdownProps> = ({ isDropdownVisible }) => {

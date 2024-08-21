@@ -1,6 +1,6 @@
 @import '../../styles/variables.scss';
 
-.container {
+.button-container {
     @include centered-flex(row);
     width: 85%;
     height: 70px;
@@ -16,15 +16,16 @@
         background-color: $addActivityGoalButton-color-hover;
     }
 
-    .icon {
+    &__icon {
         margin-top: -2px;
         width: 2.2rem;
         height: 2.2rem;
     }
-    .text {
+    &__text {
         font-size: 1.2rem;
+        font-weight: 700;
     }
-
-
-
+}
+.button-container--active {
+    background-color: $addActivityGoalButton-color-hover;
 }

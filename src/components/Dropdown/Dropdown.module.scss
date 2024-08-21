@@ -2,22 +2,24 @@
 
 .dropdown {
     position: absolute;
-    bottom: -50%;
-    right: 0;
+    bottom: -85%;
+    right: 0px;
     width: 40%;
     background-color: $addActivityGoalButton-color;
     border-radius: 4px;
-    border: 3px solid #ccc;
+    border: 1px solid #ccc;
     opacity: 0;
     transition: opacity 0.3s ease;
+
     .dropdownItem {
-        width: 100%;
-        height: 100%;
+        overflow: hidden;
+        padding: 5px;
         color: $addActivityGoalButton-text-color;
         transition: background-color 0.3s ease;
 
         &:hover {
             background-color: $addActivityGoalButton-color-hover;
+            padding: 5px;
         }
 
         &:last-child {

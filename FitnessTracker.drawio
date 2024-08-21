@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="n-0wqSwhZ6i_WBtEKtWH" name="FORM">
-        <mxGraphModel dx="857" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
+        <mxGraphModel dx="458" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -90,9 +90,6 @@
                 </mxCell>
                 <mxCell id="53" value="Cardio Activities" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="265" y="160" width="90" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="54" value="Text" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="410" y="340" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="&lt;font size=&quot;1&quot; style=&quot;&quot; color=&quot;#000000&quot;&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;Form will change in base of the activity selected&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=#23445d;align=center;fillColor=#bac8d3;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;perimeterSpacing=0;strokeWidth=6;" parent="1" vertex="1">
                     <mxGeometry x="345" y="60" width="195" height="60" as="geometry"/>
